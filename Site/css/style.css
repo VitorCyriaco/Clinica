@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body{
+    background-color: #f1f6fc31;
+}
+section,
+footer{
+    padding: 54px 0;
+}
+h3{
+    font-size: 50px;
+}
+p{
+    color: #0000009c;
+    margin: 5px 0 10px 0;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.btnLogin{
+    background-color: #4f9cf9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+.btnLogin:hover{
+    background-color: #3580db;
+}
+.btnCont{
+    background-color: #4f9cf9;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+.btnCont:hover{
+    background-color: #3580db;
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+nav ul a:not(.btnLogin)::after{
+    content: "";
+    background-color: blue;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+nav ul a:hover::after{
+    width: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+.banner .banner-text h1{
+    font-size: 96px;
+    color: white;
+}
+.banner .banner-text p{
+    font-size: 20px;
+    color: #ffffffb7;
+    font-weight: lighter;
+}
+/* apresentação */
+.apresentacao .container{
+    display: flex;
+    align-items: center;
+}
+.apresentacao .apresentacao-txt{
+    width: 50%;
+    padding: 0 40px;
+}
+.apresentacao .apresentacao-txt h3{
+    font-size: 56px;
+}
+.apresentacao .apresentacao-txt p{
+    margin: 5px 0 10px 0;
+}
+.apresentacao .apresentacao-img{
+    width: 50%;
+    padding: 0 40px;
+}
+.apresentacao .apresentacao-img img{
+    width: 100%;
+}
