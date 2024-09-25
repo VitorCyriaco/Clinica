@@ -41,18 +41,6 @@ p{
 .btnLogin:hover{
     background-color: #3580db;
 }
-.btnCont{
-    background-color: #4f9cf9;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    display: inline-block;
-    transition: 0.1s;
-}
-.btnCont:hover{
-    background-color: #3580db;
-}
 header{
     background-position: center;
     background-size: cover;
