@@ -17,6 +17,9 @@ section,
 footer{
     padding: 54px 0;
 }
+footer p{
+    align-items: center;
+}
 h3{
     font-size: 50px;
 }
@@ -115,4 +118,9 @@ nav ul a:hover::after{
 }
 .apresentacao .apresentacao-img img{
     width: 100%;
+}
+.apresentacao .apresentacao-txt a img{
+    width: 55px;
+    margin-left: 28px;
+    display: inline-block;
 }
