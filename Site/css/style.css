@@ -190,6 +190,13 @@ nav .close-icon{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 20px 0;
+}
+.recursos .container .img-js{
+    width: 400px;
+}
+.recursos .container .img-css{
+    width: 180px;
 }
 .footer{
     background-color: blue;
