@@ -2,10 +2,12 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Integrador</title>
     <meta name="description" content="Apresentação da ideia do projeto integrador.">
+    <script src="https://kit.fontawesome.com/5305c83440.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <title>Projeto Integrador</title>
 </head>
 <body>
  
@@ -16,30 +18,39 @@
                 <img src="#" alt="">
             </a>
             <ul class="ul">
-                <a href="index.html">Home</a>
-                <a href="#">Funcionalidades</a>
-                <a href="#">Recursos</a>
-                <a href="#">Objetivos</a>
+                <a href="index.html">Apresentação</a>
+                <a href="#funcionalidades">Funcionalidades</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#objetivos">Objetivos</a>
                 <a href="devs/devs.html" class="btnLogin">Equipe</a>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
             </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <section class="banner">
             <div class="banner-text">
-                <h1>Studio Saúde em Foco</h1>
+                <h1>Projeto Studio de Pilates</h1>
                 <p>
-                    Nossa filosofia é promover o bem-estar através do pilates. Oferecemos aulas acessíveis a todos, independentemente do nível de experiência.   
+                    Aplicação web voltada a melhoria na qualidade do atendimento,
+                    proximidade do cliente com o studio e visibilidade para novos
+                    clientes.
                 </p>
-                <a href="sobre.html" class="btnCont">Saiba Mais</a>
             </div>
         </section>
     </div>
 </header>
-<section class="apresentacao">
+<section id="funcionalidades" class="apresentacao">
     <div class="container">
         <div class="apresentacao-txt">
-            <h3>Conteúdo da apresentação</h3>
-            <p>Descrição da apresentação</p>
-            <a href="sobre.html" class="btnCont">Saiba Mais</a>
+            <h3>Agenda Automática</h3>
+            <p>Os alunos escolhem o dia e o horário do atendimento a partir do
+                site ou aplicativo a partir de um calendário onde as aulas ficam
+                disponíveis.
+            </p>
         </div>
         <div class="apresentacao-img">
             <img src="img/apresentacao.jpg" alt="">
@@ -52,15 +63,109 @@
             <img src="img/apresentacao.jpg" alt="">
         </div>
         <div class="apresentacao-txt">
-            <h3>Conteúdo da apresentação</h3>
-            <p>Descrição da apresentação</p>
-            <a href="sobre.html" class="btnCont">Saiba Mais</a>
+            <h3>Facilidade nas Finanças</h3>
+            <p>O sistema verifica o plano contratado pelos clientes e libera o
+                agendamento de acordo com o contrato. A agenda fica indisponível
+                caso o pagamento não seja efetuado.
+            </p>
         </div>
     </div>
 </section>
-<footer>
-    <p>&copy; 2024 Pilates: Benefícios e Práticas. Todos os direitos reservados.</p>
+<section class="apresentacao1">
+    <div class="container">
+        <h3>Além do Agendamento</h3>
+        <p>Conteúdo exlusico para os clientes, alimentados de forma automática
+            e sempre de fontes confiáveis. Além do acompanhamento de progressos 
+            que ocorrem durante as práticas e muito mais.
+        </p>
+        <div class="cards">
+            <div class="card-item">
+                <img src="img/apresentacao.jpg" alt="">
+                <p class="titulo-ideia">Exercícios em Dia</p>
+                <p class="descr-ideia">
+                    Dicas sobre como executar e quais sua vantagens dos exercícios.
+                    O conteúdo estará disponível sempre ao efetuar o login na 
+                    plataforma.
+                    Sendo possível, também, a adição desses conteúdo pelo fisioterapeuta
+                    de forma manual, sendo ele um vídeo ou texto.
+                </p>
+                <div class="rodape">
+                    <p>
+                        Continuará com acesso disponível após o encerramento
+                        do pacote adquirido, visando o retorno do cliente.
+                    </p>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="img/apresentacao.jpg" alt="">
+                <p class="titulo-ideia">Acompenhe seu Progresso</p>
+                <p class="descr-ideia">
+                    Acompanhamento do progesso baseado nos exercícios e procedimentos
+                    indicados pelo fisioterapeuta. Apresentado de forma clara e
+                    visual o quanto o cliente progrediu durante os atendimentos.
+                    Assim, mantendo o cliente sempre motivado a continuar progredindo.
+                </p>
+                <div class="rodape">
+                    <p>
+                        Acesso indisponível após o encerramento
+                        do pacote adquirido, por ser um recurso individual e 
+                        de acompanhamento.
+                    </p>
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="img/apresentacao.jpg" alt="">
+                <p class="titulo-ideia">Não Perca a Hora</p>
+                <p class="descr-ideia">
+                    Receba uma notificação 1(uma) hora antes do atendimento,
+                    será, também, notificado caso ocorra o cancelamento do mesmo.
+                    Um cronômetro estará disponível para controlar o tempo de 
+                    descanso entre os exercícios, avisando com um alarme
+                    quando o tempo programado se esgotar.
+                </p>
+                <div class="rodape">
+                    <p>
+                        Acesso indisponível após o encerramento
+                        do pacote adquirido, por ser um recurso individual e 
+                        de acompanhamento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="recursos" class="recursos">
+    <div class="container">
+        <h3>Tecnologias Utilizadas</h3>
+        <p> Explicação rapida</p>
+        <div>
+            <img src="#" alt="">
+            <img src="#" alt="">
+            <img src="#" alt="">
+            <img src="#" alt="">
+            <img src="#" alt="">
+            <img src="#" alt="">
+        </div>
+    </div>
+</section>
+<section id="objetivos" class="apresentacao">
+    <div class="container">
+        <div class="apresentacao-img">
+            <img src="img/apresentacao.jpg" alt="">
+        </div>
+        <div class="apresentacao-txt">
+            <h3>Objetivos</h3>
+            <p>
+                escrever os objetivos
+            </p>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Projeto Studio de Pilates. SENAC-SP</p>
+    </div>
 </footer>
- 
+<script src="js/main.js"></script>
 </body>
 </html>

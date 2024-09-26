@@ -6,9 +6,6 @@
     text-decoration: none;
     outline: none;
     font-family: "Playwrite DE Grund", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
 }
 body{
     background-color: #f1f6fc31;
@@ -25,7 +22,7 @@ p{
     margin: 5px 0 10px 0;
 }
 .container{
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
 }
@@ -39,18 +36,6 @@ p{
     transition: 0.1s;
 }
 .btnLogin:hover{
-    background-color: #3580db;
-}
-.btnCont{
-    background-color: #4f9cf9;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    display: inline-block;
-    transition: 0.1s;
-}
-.btnCont:hover{
     background-color: #3580db;
 }
 header{
@@ -86,6 +71,17 @@ nav ul a:not(.btnLogin)::after{
 }
 nav ul a:hover::after{
     width: 100%;
+}
+nav .menu-icon{
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+nav .close-icon{
+    display: none;
+    font-size: 30px;
+    color: white;
 }
 .banner{
     display: flex;
@@ -127,4 +123,109 @@ nav ul a:hover::after{
 }
 .apresentacao .apresentacao-img img{
     width: 100%;
+}
+.apresentacao1{
+    background-color: blue;
+}
+.apresentacao1 h3{
+    text-align: center;
+}
+.apresentacao1 p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.apresentacao1 .card-item{
+    background-color: #d3e6fd;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+.apresentacao1 .card-item img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+.apresentacao1 .card-item .titulo-ideia{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.apresentacao1 .card-item .descr-ideia{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.apresentacao1 .card-item .rodape{
+    margin: 15px 0;
+    border-top: 2px solid #71767a23;
+}
+.apresentacao1 .card-item .rodape p{
+    color: #4f9cf9;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.apresentacao1 .card-item:hover{
+    background-color: #4f9cf9;
+    margin-top: -5px;
+}
+.apresentacao1 .card-item:hover .titulo-ideia, 
+.apresentacao1 .card-item:hover .descr-ideia,
+.apresentacao1 .card-item:hover .rodape p{
+    color: white;
+}
+.recursos h3,
+.recursos p{
+    text-align: center;
+}
+.recursos .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    background-color: blue;
+    text-align: center;
+}
+.footer p{
+    color: white;
+}
+@media(max-width: 830px){
+    .ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #184b88;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        clip-path: circle(0% at 100% 0);
+        transition: 0.7s;
+    }
+    .ul.open{
+        clip-path: circle(141.2% at 100% 0);
+    }
+    .ul a{
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    nav .menu-icon{
+        display: block;
+    }
+    nav .close-icon{
+        display: block;
+        position: absolute;
+        top: 34px;
+        right: 28px;
+    }
 }

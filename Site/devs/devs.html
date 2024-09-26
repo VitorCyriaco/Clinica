@@ -2,10 +2,12 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Integrador</title>
     <meta name="description" content="Apresentação da ideia do projeto integrador">
+    <script src="https://kit.fontawesome.com/5305c83440.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/devs.css">
+    <title>Projeto Integrador</title>
 </head>
 <body>
 <header style="background-color: green;">
@@ -15,12 +17,18 @@
                 <img src="#" alt="">
             </a>
             <ul class="ul">
-                <a href="../index.html">Home</a>
-                <a href="#">Funcionalidades</a>
+                <a href="../index.html">Apresentação</a>
+                <a href="../index.html#funcionalidades">Funcionalidades</a>
                 <a href="#">Recursos</a>
                 <a href="#">Objetivos</a>
                 <a href="devs.html" class="btnLogin">Equipe</a>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
             </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <section class="banner">
             <div class="banner-text">
@@ -78,7 +86,7 @@
         <div class="apresentacao-txt">
             <h3>Vitor</h3>
             <p>Estudante da área de Desenvolvimento de Sistemas
-                com interesse em iniciar uma carreira como back-end.
+                com interesse em iniciar uma carreira como desenvolvedor back-end.
             </p>
             <a href="https://www.linkedin.com/in/vitorcyriaco">
                 <img src="../img/linkedin.png" alt="">
@@ -109,8 +117,11 @@
         </div>
     </div>
 </section>
-<footer>
-    <p>&copy; 2024 Pilates: Benefícios e Práticas. Todos os direitos reservados.</p>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Projeto Studio de Pilates. SENAC-SP</p>
+    </div>
 </footer>
+<script src="../js/main.js"></script>
 </body>
 </html>
