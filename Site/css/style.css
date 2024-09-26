@@ -190,13 +190,62 @@ nav .close-icon{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .recursos .container .img-js{
-    width: 400px;
+    width: 102px;
+    margin-left: 0;
+}
+.recursos .container .img-html{
+    width: 126px;
+    margin-left: 2;
 }
 .recursos .container .img-css{
-    width: 180px;
+    width: 90px;
+    margin-left: 7px;
+}
+.recursos .container .img-sql{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.recursos .container .img-php{
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.recursos .container .logo-ide{
+    align-items: center;
+    margin-left: 0px;
+}
+.recursos .container .img-vscode{
+    width: 110px;
+    margin-top: 0;
+    margin-left: 0px;
+}
+.recursos .container .img-mysql{
+    width: 110px;
+    margin-top: 0px;
+}
+.recursos .container .img-react{
+    width: 220px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.recursos .container .img-whats{
+    width: 110px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.recursos .container .img-inter{
+    width: 220px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.recursos .container .img-stone{
+    width: 220px;
+    margin-top: -20px;
+    margin-left: 5px;
 }
 .footer{
     background-color: blue;
