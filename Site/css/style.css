@@ -137,6 +137,7 @@ nav .close-icon{
 .cards{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .apresentacao1 .card-item{
     background-color: #d3e6fd;
@@ -187,6 +188,7 @@ nav .close-icon{
     text-align: center;
 }
 .recursos .container div{
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -206,8 +208,6 @@ nav .close-icon{
 }
 .recursos .container .img-sql{
     width: 100px;
-    margin-top: 20px;
-    margin-left: 4px;
 }
 .recursos .container .img-php{
     width: 130px;
@@ -228,24 +228,21 @@ nav .close-icon{
     margin-top: 0px;
 }
 .recursos .container .img-react{
-    width: 220px;
+    width: 120px;
     margin-top: 0;
     margin-left: 5px;
 }
 .recursos .container .img-whats{
     width: 110px;
     margin-top: 0;
-    margin-left: 5px;
 }
 .recursos .container .img-inter{
     width: 220px;
     margin-top: 0;
-    margin-left: 5px;
 }
 .recursos .container .img-stone{
     width: 220px;
     margin-top: -20px;
-    margin-left: 5px;
 }
 .footer{
     background-color: blue;
@@ -283,5 +280,68 @@ nav .close-icon{
         position: absolute;
         top: 34px;
         right: 28px;
+    }
+    .apresentacao .apresentacao-txt{
+        margin-top: 10px;
+        padding: 0 20px;
+        order: 1;
+    }
+    .apresentacao .container{
+        flex-direction: column;
+    }
+    .apresentacao .apresentacao-txt h3{
+        font-size: 48px;
+    }
+    .apresentacao .apresentacao-txt,
+    .apresentacao .apresentacao-img{
+        width: 100%;
+    }
+    .banner .banner-text{
+        padding: 0;
+        margin: 80px;
+    }
+    .banner .banner-text h1{
+        font-size: 80px;
+    }
+    .banner .banner-text p{
+        font-size: 15px;
+    }
+    .apresentacao1 .card-item{
+        width: 100%;
+    }
+    .recursos .container .img-js{
+        width: 70px;
+    }
+    .recursos .container .img-html{
+        width: 85px;
+    }
+    .recursos .container .img-css{
+        width: 59px;
+    }
+    .recursos .container .img-sql{
+        width: 64px;
+        margin-top: -3px;
+    }
+    .recursos .container .img-php{
+        width: 95px;
+    }
+    .recursos .container .img-vscode{
+        width: 60px;
+        margin-top: -2px;
+    }
+    .recursos .container .img-mysql{
+        width: 75px;
+    }
+    .recursos .container .img-react{
+        width: 74px;
+    }
+    .recursos .container .img-whats{
+        width: 59px;
+    }
+    .recursos .container .img-inter{
+        width: 110px;
+    }
+    .recursos .container .img-stone{
+        width: 110px;
     }
 }
