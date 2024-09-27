@@ -8,7 +8,7 @@
     font-family: "Playwrite DE Grund", cursive;
 }
 body{
-    background-color: #f1f6fc31;
+    background-color: #FAF6ED;
 }
 section,
 footer{
@@ -54,7 +54,7 @@ nav ul{
     align-items: center;
 }
 nav ul a{
-    color: white;
+    color: black;
     margin: 0 25px;
     text-transform: uppercase;
     font-size: 14px;
@@ -62,7 +62,7 @@ nav ul a{
 }
 nav ul a:not(.btnLogin)::after{
     content: "";
-    background-color: blue;
+    background-color: #73CBFD;
     height: 3px;
     width: 0%;
     display: block;
@@ -94,11 +94,11 @@ nav .close-icon{
 }
 .banner .banner-text h1{
     font-size: 96px;
-    color: white;
+    color: black;
 }
 .banner .banner-text p{
-    font-size: 20px;
-    color: #ffffffb7;
+    font-size: 40px;
+    color: black;
     font-weight: lighter;
     padding: 30px;
 }
@@ -113,9 +113,12 @@ nav .close-icon{
 }
 .apresentacao .apresentacao-txt h3{
     font-size: 56px;
+    color: #73CBFD;
 }
 .apresentacao .apresentacao-txt p{
     margin: 5px 0 10px 0;
+    color: #A8EED2;
+    font-size: 25px;
 }
 .apresentacao .apresentacao-img{
     width: 50%;
@@ -123,9 +126,10 @@ nav .close-icon{
 }
 .apresentacao .apresentacao-img img{
     width: 100%;
+    border-radius: 170px;
 }
 .apresentacao1{
-    background-color: blue;
+    background-color: #DDD6CE;
 }
 .apresentacao1 h3{
     text-align: center;
@@ -139,8 +143,15 @@ nav .close-icon{
     justify-content: center;
     flex-wrap: wrap;
 }
+.container h3{
+    color: #73CBFD;
+}
+.container .txt{
+    color: #A8EED2;
+    font-size: 25px;
+}
 .apresentacao1 .card-item{
-    background-color: #d3e6fd;
+    background-color: #73CBFD;
     margin: 15px;
     border-radius: 14px;
     text-align: center;
@@ -169,19 +180,19 @@ nav .close-icon{
     border-top: 2px solid #71767a23;
 }
 .apresentacao1 .card-item .rodape p{
-    color: #4f9cf9;
+    color: black;
     margin-top: 15px;
     font-size: 20px;
     transition: 0.3s;
 }
 .apresentacao1 .card-item:hover{
-    background-color: #4f9cf9;
+    background-color: #A8EED2;
     margin-top: -5px;
 }
 .apresentacao1 .card-item:hover .titulo-ideia, 
 .apresentacao1 .card-item:hover .descr-ideia,
 .apresentacao1 .card-item:hover .rodape p{
-    color: white;
+    color: black;
 }
 .recursos h3,
 .recursos p{
@@ -245,7 +256,7 @@ nav .close-icon{
     margin-top: -20px;
 }
 .footer{
-    background-color: blue;
+    background-color: #DDD6CE;
     text-align: center;
 }
 .footer p{
@@ -258,7 +269,7 @@ nav .close-icon{
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #184b88;
+        background-color: #73CBFD;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -304,7 +315,7 @@ nav .close-icon{
         font-size: 80px;
     }
     .banner .banner-text p{
-        font-size: 15px;
+        font-size: 20px;
     }
     .apresentacao1 .card-item{
         width: 100%;

@@ -11,7 +11,7 @@
     font-style: normal;
 }
 body{
-    background-color: #f1f6fc31;
+    background-color: #FAF6ED;
 }
 section,
 footer{
@@ -28,7 +28,7 @@ p{
     margin: 5px 0 10px 0;
 }
 .container{
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
 }
@@ -129,6 +129,7 @@ nav .close-icon{
 }
 .apresentacao .apresentacao-img img{
     width: 100%;
+    border-radius: 250px;
 }
 .apresentacao .apresentacao-txt a img{
     width: 55px;
@@ -136,7 +137,7 @@ nav .close-icon{
     display: inline-block;
 }
 .footer{
-    background-color: blue;
+    background-color: #DDD6CE;
     text-align: center;
 }
 .footer p{
@@ -149,7 +150,7 @@ nav .close-icon{
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #184b88;
+        background-color: #73CBFD;
         flex-direction: column;
         align-items: center;
         justify-content: center;
