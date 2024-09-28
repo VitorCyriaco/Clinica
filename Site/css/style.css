@@ -113,11 +113,11 @@ nav .close-icon{
 }
 .apresentacao .apresentacao-txt h3{
     font-size: 56px;
-    color: #73CBFD;
+    color: black;
 }
 .apresentacao .apresentacao-txt p{
     margin: 5px 0 10px 0;
-    color: #A8EED2;
+    color: black;
     font-size: 25px;
 }
 .apresentacao .apresentacao-img{
@@ -144,10 +144,10 @@ nav .close-icon{
     flex-wrap: wrap;
 }
 .container h3{
-    color: #73CBFD;
+    color: black;
 }
 .container .txt{
-    color: #A8EED2;
+    color: black;
     font-size: 25px;
 }
 .apresentacao1 .card-item{
@@ -297,6 +297,9 @@ nav .close-icon{
         padding: 0 20px;
         order: 1;
     }
+    .apresentacao1 h3{
+        font-size: 40px;
+    }
     .apresentacao .container{
         flex-direction: column;
     }
@@ -309,10 +312,10 @@ nav .close-icon{
     }
     .banner .banner-text{
         padding: 0;
-        margin: 80px;
+        margin: 10px;
     }
     .banner .banner-text h1{
-        font-size: 80px;
+        font-size: 50px;
     }
     .banner .banner-text p{
         font-size: 20px;

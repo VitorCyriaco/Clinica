@@ -60,7 +60,7 @@ nav ul{
     align-items: center;
 }
 nav ul a{
-    color: white;
+    color: black;
     margin: 0 25px;
     text-transform: uppercase;
     font-size: 14px;
@@ -100,11 +100,11 @@ nav .close-icon{
 }
 .banner .banner-text h1{
     font-size: 96px;
-    color: white;
+    color: black;
 }
 .banner .banner-text p{
     font-size: 20px;
-    color: #ffffffb7;
+    color: black;
     font-weight: lighter;
     padding: 30px;
 }
